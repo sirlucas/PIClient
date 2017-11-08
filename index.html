@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>GroupalNet</title>
+
+  	<link rel='stylesheet' href='css/pure-min.css'>
+	  <link rel='stylesheet' href='css/font.css'>
+	  <link rel="stylesheet" href="css/mediaelementplayer.min.css" />
+  	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menus.css">
+    <link rel="stylesheet" href="css/menus-min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  	<style type="text/css">
+    .mejs__container { width: 100% !important; }
+    .mejs__mediaelement { text-align: static; }
+    .mejs__overlay-play { position: static; }
+    .mejs__poster { width: 100% !important; position: static; }
+    .mejs__controls { visibility:hidden !important; }
+
+
+    </style>
+</head>
+
+<body style="background: linear-gradient(to right, #283048, #4682B4 );">
+  <div id="content" class="pure-g" >
+
+      <div class="pure-u-3-4">
+
+        <div class="pure-g panel-vid">
+          <video  id="player1" class="pure-u-1">
+      	  </video>
+        </div>
+
+        <div id="lower-third" class="pure-g" style="margin-top: -25px; margin-bottom: 0px; width: 100%; ">
+
+          <div class="section-1 pure-u-1">
+            <div class="pure-g">
+              <div class="pure-u-1-5 current">Noticias Nacionales</div>
+            </div>
+          </div>
+
+          <div class="section-2 pure-u-1">
+            <div class="pure-g">
+              <div class="pure-u-1">
+                <h1 class="headline" id="titular" ></h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-3 pure-u-1">
+            <ul class="pure-g">
+              <li class="pure-u-1-4">Elecciones en Corea</li>
+              <li class="pure-u-1-4">Fallece Roger Moore</li>
+              <li class="pure-u-1-4">Bachelet Viaja a Angol</li>
+              <li class="pure-u-1-4">IPC 10%</li>
+            </ul>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="pure-u-1-4" id="lateral">
+        <div class="pure-g">
+          <img class="logotype" style="filter: drop-shadow(5px 5px 10px #fff);"src="img/la-logo.png"/>
+
+        </div>
+        <div class="pure-g  information">
+                  <div class="pure-u-1-2 clock" id="time"></div>
+                  <div class="pure-u-1-2 temperature" id="weather"></div>
+                  <div class="pure-u-1 logo"><span>Los Angeles, Chile.</span></div>
+                  <div class="pure-u-1 logo"><span></span></div>
+        </div>
+        <div class="social">
+          <ul class="w3-ul w3-large">
+
+            <li><img src="img/fb.png" class="w3-circle w3-hide-small" style="width:20%">fb.com/fanpage</li>
+            <li><img src="img/twitt.png" class="w3-circle w3-hide-small" style="width:20%">@tutwitter</li>
+            <li><img src="img/insta.png" class="w3-circle w3-hide-small" style="width:20%">@tuinstagram</li>
+            <li></li>
+          </ul>
+
+        </div>
+
+        <div class="information">
+
+            <h3>Aqui mas información de interés</h3>
+            <div class="pure-g" id="thumbnail">
+
+            </div>
+
+
+
+        </div>
+
+      </div>
+</div>
+	<script src='js/jquery.min.js'></script>
+	<script src="js/mediaelement-and-player.min.js"></script>
+	<script src="js/jquery.simpleWeather.min.js"></script>
+	<script src="js/pouchdb.min.js"></script>
+	<script src="js/pouchdb.find.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
